@@ -1,13 +1,13 @@
 BMW Group Cloud - Exchange Drive
 
-You find your file(s) for data exchange in the following temporary folder:
-\\europe.bmw.corp\winfs\_xchange\Munich\exdint\until_2024-12-10_d099ddd9f50c099713124ff2f796e5476963de11843adb340119972eaa3e7ddcabcd39864211
+Im folgenden temporären Ordner finden Sie Ihre Austauschdaten:
+\\europe.bmw.corp\winfs\_xchange\Munich\exdint\until_2024-12-17_9f70ee7429be41db34012ca14a9f40ae4a1833424d1ee280aa87f37007b1145e3a13248a1211
 
-For Mac / Linux:
-smb://europe.bmw.corp/winfs/_xchange/Munich/exdint/until_2024-12-10_d099ddd9f50c099713124ff2f796e5476963de11843adb340119972eaa3e7ddcabcd39864211
+Für Mac / Linux:
+smb://europe.bmw.corp/winfs/_xchange/Munich/exdint/until_2024-12-17_9f70ee7429be41db34012ca14a9f40ae4a1833424d1ee280aa87f37007b1145e3a13248a1211
 
-For LeanMac:
-enterprisefiles://europe.bmw.corp/winfs/_xchange/Munich/exdint/until_2024-12-10_d099ddd9f50c099713124ff2f796e5476963de11843adb340119972eaa3e7ddcabcd39864211
+Für LeanMac:
+enterprisefiles://europe.bmw.corp/winfs/_xchange/Munich/exdint/until_2024-12-17_9f70ee7429be41db34012ca14a9f40ae4a1833424d1ee280aa87f37007b1145e3a13248a1211
 
-Access from the BMW intranet:
-https://exd-prod.bmwgroup.net/exd/exd.jsf?dir=until_2024-12-10_d099ddd9f50c099713124ff2f796e5476963de11843adb340119972eaa3e7ddcabcd39864211
+Zugriff aus dem BMW Intranet:
+https://exd-prod.bmwgroup.net/exd/exd.jsf?dir=until_2024-12-17_9f70ee7429be41db34012ca14a9f40ae4a1833424d1ee280aa87f37007b1145e3a13248a1211
