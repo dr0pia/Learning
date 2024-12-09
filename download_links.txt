@@ -39,3 +39,11 @@ Description: -
 Please note that this folder will be deleted automatically on 17.12.2024 02:00 UTC+01:00 (in 7 day(s)).
 Information on decrypting ZIP files under different operating systems can be found in the online help.
 Important: The Windows Explorer built-in function to extract data cannot be used to extract encrypted ZIP files. You can use e.g. 7-Zip (https://7-zip.org/).
+
+I made Exchange file. pwd:   Yg(6&tC84#vZ+Fs
+ 
+Try that Start setup.exe  Than Deinstall Old Client
+And then again install new Client.
+ 
+After that Start it and use : smuc14279.bmwgroup.net:7011/BC_TEST_Wien  as server
+ 
