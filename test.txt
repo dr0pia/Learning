@@ -1,0 +1,15 @@
+BMW Group Cloud - Exchange Drive
+
+You find your file(s) for data exchange in the following temporary folder:
+\\europe.bmw.corp\winfs\_xchange\EXD\exdext\until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+
+For Mac / Linux:
+smb://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+
+For LeanMac:
+enterprisefiles://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+
+Access from the internet:
+https://exd-prod.bmw.com/exd/exd.jsf?dir=until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+
+Description: lazarc_tools
