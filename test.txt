@@ -1,13 +1,120 @@
-Im folgenden temporären Ordner finden Sie Ihre Austauschdaten:
-\\europe.bmw.corp\winfs\_xchange\EXD\exdext\until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
+PS C:\Users\AXZ3VN8\Desktop\ThickClientTools.zip> .\MisconfigurationManager.ps1 -Verbose
+VERBOSE: Looking for site namespace in root\SMS on SMUC11146
+VERBOSE: Found root\SMS\site_TCA on SMUC11146
+VERBOSE: Querying root\SMS\site_TCA.SMS_SCI_SiteDefinition for the list of sites with parent:
+VERBOSE: Gathering data for site: SCCM Test CAS - BMW Group Client (TCA)
+VERBOSE: SCCM Test CAS - BMW Group Client is a central administration site
+VERBOSE: Querying the list of systems in TCA
+VERBOSE: Collecting data for SMUC10948.EUROPE.BMW.CORP
+VERBOSE:     SMS Component Server
+VERBOSE:     SMS Site System
+VERBOSE:     SMS SRS Reporting Point
+VERBOSE:     Collecting SMB signing requirements
+WARNING:         SMB signing required: Failed to read registry on SMUC10948.EUROPE.BMW.CORP: Exception calling "OpenSubKey" with "1
+registry access is not allowed." (check ELEVATE-1 manually)
+VERBOSE: Collecting data for smuc11146.europe.bmw.corp
+VERBOSE:     SMS SQL Server
+VERBOSE:     SMS Component Server
+VERBOSE:     SMS Site Server
+VERBOSE:     SMS Site System
+VERBOSE:     SMS Provider
+VERBOSE:     SMS Software Update Point
+VERBOSE:     SMS Endpoint Protection Point
+VERBOSE:     SMS Dmp Connector
+VERBOSE:     Data Warehouse Service Point
+VERBOSE:     Collecting SMB signing requirements
+WARNING:         SMB signing required: Failed to read registry on smuc11146.europe.bmw.corp: Exception calling "OpenSubKey" with "1
+registry access is not allowed."
+VERBOSE:     Collecting WebClient service status
+WARNING:         WebClient check failed, validate TAKEOVER-8 manually
+VERBOSE: Querying root\SMS\site_TCA.SMS_SCI_SiteDefinition for the list of sites with parent: TCA
+VERBOSE: Gathering data for site: SCCM Test Primary - BMW Group Client (TC1)
+VERBOSE: SCCM Test Primary - BMW Group Client is a primary site
+VERBOSE: Querying the list of systems in TC1
+VERBOSE: Collecting data for smuc6664.europe.bmw.corp
+VERBOSE:     SMS SQL Server
+VERBOSE:     SMS Component Server
+VERBOSE:     SMS Distribution Point
+VERBOSE:     SMS Site Server
+VERBOSE:     SMS Site System
+VERBOSE:     SMS Management Point
+VERBOSE:     SMS Provider
+VERBOSE:     SMS Software Update Point
+VERBOSE:     SMS Notification Server
+VERBOSE:     Collecting SMB signing requirements
+VERBOSE:         SMB signing required: True
+VERBOSE:     Collecting WebClient service status
+WARNING:         WebClient check failed, validate TAKEOVER-8 manually
+VERBOSE:     Checking local Administrators group on smuc6664.europe.bmw.corp for account: smuc11146$
+VERBOSE:         smuc11146$ is not a local admin on smuc6664.europe.bmw.corp
+VERBOSE: Querying client push installation settings for TC1
+VERBOSE:     Automatic site-wide client push installation is not enabled
+VERBOSE:     Fallback to NTLM is not enabled
+VERBOSE: Querying root\SMS\site_TCA.SMS_SCI_SiteDefinition for the list of sites with parent: TC1
+VERBOSE: Gathering data for site: SCCM Test Secondary - BMW Group Client (TC2)
+VERBOSE: SCCM Test Secondary - BMW Group Client is a secondary site
+VERBOSE: Querying the list of systems in TC2
+VERBOSE: Collecting data for smuc11039.europe.bmw.corp
+VERBOSE:     SMS SQL Server
+VERBOSE:     SMS Component Server
+VERBOSE:     SMS Distribution Point
+VERBOSE:     SMS Site Server
+VERBOSE:     SMS Site System
+VERBOSE:     SMS Management Point
+VERBOSE:     SMS Software Update Point
+VERBOSE:     SMS Notification Server
+VERBOSE:     Collecting SMB signing requirements
+VERBOSE:         SMB signing required: True
+VERBOSE: Querying root\SMS\site_TCA.SMS_SCI_SiteDefinition for the list of sites with parent: TC2
 
-Für Mac / Linux:
-smb://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
+Hierarchy Tree:
 
-Für LeanMac:
-enterprisefiles://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
-
-Zugriff aus dem Internet:
-https://exd-prod.bmw.com/exd/exd.jsf?dir=until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
-
-Beschreibung: tools
+Site Code: TCA, Name: SCCM Test CAS - BMW Group Client, Site Server: smuc11146.europe.bmw.corp
+ │
+ ├───SMUC10948.EUROPE.BMW.CORP (Remote: True)
+ │      SMS Component Server
+ │      SMS Site System
+ │      SMS SRS Reporting Point
+ │
+ ├───smuc11146.europe.bmw.corp (Possible Issues: TAKEOVER-3, TAKEOVER-8)
+ │      SMS SQL Server
+ │      SMS Component Server
+ │      SMS Site Server
+ │         WebClient check failed, validate TAKEOVER-8 manually
+ │      SMS Site System
+ │      SMS Provider
+ │      SMS Software Update Point
+ │      SMS Endpoint Protection Point
+ │      SMS Dmp Connector
+ │      Data Warehouse Service Point
+ │
+ ├───Site Code: TC1, Name: SCCM Test Primary - BMW Group Client, Site Server: smuc6664.europe.bmw.corp, Reporting to: TCA
+ │    │
+ │    ├───Automatic site-wide client push installation is not enabled
+ │    │
+ │    ├───smuc6664.europe.bmw.corp (Possible Issues: TAKEOVER-3, TAKEOVER-8)
+ │    │      SMS SQL Server
+ │    │      SMS Component Server
+ │    │      SMS Distribution Point
+ │    │      SMS Site Server
+ │    │         SMB signing required, preventing TAKEOVER-4
+ │    │         WebClient check failed, validate TAKEOVER-8 manually
+ │    │      SMS Site System
+ │    │      SMS Management Point
+ │    │      SMS Provider
+ │    │      SMS Software Update Point
+ │    │      SMS Notification Server
+ │    │
+ │    └───Site Code: TC2, Name: SCCM Test Secondary - BMW Group Client, Site Server: smuc11039.europe.bmw.corp, Reporting to: TC1
+ │         │
+ │         └───smuc11039.europe.bmw.corp
+ │                 SMS SQL Server
+ │                 SMS Component Server
+ │                 SMS Distribution Point
+ │                 SMS Site Server
+ │                 SMS Site System
+ │                 SMS Management Point
+ │                 SMS Software Update Point
+ │                 SMS Notification Server
+ │
+PS C:\Users\AXZ3VN8\Desktop\ThickClientTools.zip>
