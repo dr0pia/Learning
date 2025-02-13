@@ -1,11 +1,13 @@
 Im folgenden temporären Ordner finden Sie Ihre Austauschdaten:
-\\europe.bmw.corp\winfs\_xchange\EXD\exdext\until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+\\europe.bmw.corp\winfs\_xchange\EXD\exdext\until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
 
 Für Mac / Linux:
-smb://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+smb://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
 
 Für LeanMac:
-enterprisefiles://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+enterprisefiles://europe.bmw.corp/winfs/_xchange/EXD/exdext/until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
 
 Zugriff aus dem Internet:
-https://exd-prod.bmw.com/exd/exd.jsf?dir=until_2025-02-20_e96972f467d656657fd874df6154ddb3ec66cfe3401e7b674704a03813383d2b6f5eac893501
+https://exd-prod.bmw.com/exd/exd.jsf?dir=until_2025-02-21_26a16dfe3401283c8a7d11066abbf8afacc263a98206f8ba7e1c43508ef5872313a2646a0401
+
+Beschreibung: tools
