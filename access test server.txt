@@ -1,0 +1,6 @@
+Test terminal server: IP 172.17.51.54
+User= pentest1            password = Ippopotamo1!
+User= pentest2            password = 2Ippopotamo
+
+	
+Charisma and Thesis apps are pinned in the taskbar - after logging in the server
