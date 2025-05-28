@@ -1,0 +1,6 @@
+Charisma and Thesis apps are pinned in the taskbar - after logging in the Server
+
+High privilege user --> pentest12
+Low privilege user --> pentest13
+
+pass: 4QAZ5qaz! --> for both users
