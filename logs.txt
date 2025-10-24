@@ -1,7 +1,0 @@
-Get-PESecurity.psm1 : The term 'Get-PESecurity.psm1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
-included, verify that the path is correct and try again.
-At line:1 char:1
-+ Get-PESecurity.psm1 -file "h:\program files\microsoft configuration m ...
-+ ~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Get-PESecurity.psm1:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
