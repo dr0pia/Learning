@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Tue Jul 28 11:54:00 2026 as: nmap -sV -sC -T4 -oA scaned_hosts -iL hosts.txt
+Host: 192.168.83.99 (xxmuctmv02.muc)	Status: Up
+Host: 192.168.83.99 (xxmuctmv02.muc)	Ports: 22/open/tcp//ssh//(protocol 2.0)/, 80/open/tcp//http//CatalystCenter/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//CatalystCenter/, 2222/open/tcp//ssh//(protocol 2.0)/, 8300/closed/tcp//tmi///, 8443/closed/tcp//https-alt///	Ignored State: filtered (993)
+Host: 192.168.83.67 (xxmuctmv01.muc)	Status: Up
+Host: 192.168.83.67 (xxmuctmv01.muc)	Ports: 22/open/tcp//ssh//(protocol 2.0)/, 80/open/tcp//http//kong|0.14.1/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//kong|0.14.1/, 873/closed/tcp//rsync///, 2222/open/tcp//ssh//OpenSSH 7.9p1 (protocol 2.0)/, 8300/closed/tcp//tmi///, 8443/closed/tcp//https-alt///	Ignored State: filtered (992)
+Host: 192.168.83.68 (xxmuctm001.muc)	Status: Up
+Host: 192.168.83.68 (xxmuctm001.muc)	Ports: 22/open/tcp//ssh//(protocol 2.0)/, 80/open/tcp//http//kong|0.14.1/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//kong|0.14.1/, 873/closed/tcp//rsync///, 2222/open/tcp//ssh//OpenSSH 7.9p1 (protocol 2.0)/, 8300/closed/tcp//tmi///, 8443/closed/tcp//https-alt///	Ignored State: filtered (992)
+Host: 192.168.83.69 (xxmuctm002.muc)	Status: Up
+Host: 192.168.83.69 (xxmuctm002.muc)	Ports: 22/open/tcp//ssh//(protocol 2.0)/, 80/open/tcp//http//kong|0.14.1/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//kong|0.14.1/, 873/closed/tcp//rsync///, 2222/open/tcp//ssh//OpenSSH 7.9p1 (protocol 2.0)/, 8300/closed/tcp//tmi///, 8443/closed/tcp//https-alt///	Ignored State: filtered (992)
+Host: 192.168.83.70 (xxmuctm003.muc)	Status: Up
+Host: 192.168.83.70 (xxmuctm003.muc)	Ports: 22/open/tcp//ssh//(protocol 2.0)/, 80/open/tcp//http//kong|0.14.1/, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//kong|0.14.1/, 873/closed/tcp//rsync///, 2222/open/tcp//ssh//OpenSSH 7.9p1 (protocol 2.0)/, 8300/closed/tcp//tmi///, 8443/closed/tcp//https-alt///	Ignored State: filtered (992)
+# Nmap done at Tue Jul 28 11:54:38 2026 -- 5 IP addresses (5 hosts up) scanned in 37.34 seconds
